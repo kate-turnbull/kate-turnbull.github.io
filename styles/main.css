@@ -1,0 +1,27 @@
+ html * {
+     font-family: 'Montagu Slab', serif;
+ }
+
+ li {
+    list-style-type: none;
+    text-decoration: none;
+
+ }
+
+h1 {
+    text-decoration-color: blue;
+}
+
+body {
+    background-color: #c28285;
+}
+
+.navbar {
+    text-decoration: none;
+    color: red;
+}
+
+.profilepic {
+    max-width: 150px;
+    max-height: 150px;
+}
