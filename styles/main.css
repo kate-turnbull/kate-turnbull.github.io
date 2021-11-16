@@ -1,15 +1,31 @@
  html * {
      font-family: 'Montagu Slab', serif;
+     text-decoration: none;
  }
 
- li {
+ header {
+     background-color: #a2a2a2;
+     border-radius: 50px;
+     height: 158px;
+
+     }
+
+ nav {
+     font-size: 50px;
+     text-decoration-color: white;
+ }
+
+ .navlist {
     list-style-type: none;
-    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    float: right;
 
  }
 
 h1 {
-    text-decoration-color: blue;
+    text-decoration-color:#3d7d7a;
 }
 
 body {
@@ -17,11 +33,27 @@ body {
 }
 
 .navbar {
-    text-decoration: none;
-    color: red;
+    background-color: #a2a2a2;
+    border-radius: 50px;
+    height: 158px;
+    color: white;
+}
+
+.blogname {
+    text-decoration-color: white;
+    float: left;
+    padding-left: 20px;
+    
 }
 
 .profilepic {
     max-width: 150px;
     max-height: 150px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    float: right;
+    
+    
 }
