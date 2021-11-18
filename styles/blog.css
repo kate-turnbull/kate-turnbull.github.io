@@ -13,22 +13,26 @@
     display: inline;
     padding: 10px;
     margin: 10px;
-    float: right;
+    padding-top: 5px;
+    float: left;
 
  }
 
  a {
     text-decoration: none;
     color: white;
+    float: right;
  }
-
-#thanks-for-reading {
-    text-decoration: white;
-}
 
 body {
     background-color: #c28285;
     text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .navbar {
@@ -36,41 +40,4 @@ body {
     border-radius: 50px;
     height: 50px;
     color: white;
-}
-
-.blogname {
-    text-decoration-color: white;
-    float: left;
-    padding-left: 20px;
-    
-}
-
-.profilepic {
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 50%;
-    border-width: 4px;
-    border-style: solid;
-    border-color: white;
-    float: right;
-    
-    
-}
-
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
-#content-wrap {
-    padding-bottom: 2.5rem;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-    background-color: #a2a2a2;
-
 }
