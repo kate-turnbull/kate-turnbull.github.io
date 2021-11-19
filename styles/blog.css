@@ -24,6 +24,11 @@
     float: right;
  }
 
+ p a {
+    float: none;
+    text-decoration: underline;
+}
+
 body {
     background-color: #c28285;
     text-align: center;

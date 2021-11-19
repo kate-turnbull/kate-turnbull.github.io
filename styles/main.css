@@ -26,10 +26,6 @@
     float: right;
  }
 
-h1 {
-    text-decoration-color:#3d7d7a;
-}
-
 body {
     background-color: #c28285;
     text-align: center;
@@ -37,8 +33,18 @@ body {
     font-size: 50px;
 }
 
+#welcome-message {
+    text-align: center;
+    margin-top: 150px;
+}
+
 p {
     font-size: 20px;
+}
+
+p a {
+    float: none;
+    text-decoration: underline;
 }
 
 .navbar {
@@ -47,6 +53,7 @@ p {
     height: 50px;
     color: white;
 }
+
 
 .profilepic {
     max-width: 150px;
