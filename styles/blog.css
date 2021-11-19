@@ -18,6 +18,20 @@
 
  }
 
+ #strike-through {
+    text-decoration: line-through;
+}
+
+#Rocky {
+    max-height: 250px;
+    min-height: 250px;
+    
+}
+
+.strike-through {
+    text-decoration: line-through;
+} 
+
  a {
     text-decoration: none;
     color: white;
@@ -46,3 +60,5 @@ p {
     height: 50px;
     color: white;
 }
+
+
