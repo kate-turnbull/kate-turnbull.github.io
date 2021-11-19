@@ -1,6 +1,9 @@
  html * {
      font-family: 'Montagu Slab', serif;
      cursor: cell;
+    }
+    
+.body {
  }
 
  nav {
@@ -23,8 +26,10 @@
 }
 
 #Rocky {
-    max-height: 250px;
-    min-height: 250px;
+    max-height: 300px;
+    min-height: 300px;
+    border-style: solid;
+    border-width: 10px;
     
 }
 
