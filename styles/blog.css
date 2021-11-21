@@ -25,6 +25,13 @@
     text-decoration: line-through;
 }
 
+.title {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 75px;
+    text-decoration: solid;
+}
+
 #Rocky {
     max-height: 300px;
     min-height: 300px;

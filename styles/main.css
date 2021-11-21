@@ -27,6 +27,9 @@
     float: right;
  }
 
+
+
+
 body {
     background-color: #c28285;
     text-align: center;
@@ -34,16 +37,19 @@ body {
     font-size: 50px;
 }
 
-#welcome-message {
-    text-align: center;
-    margin-top: 150px;
-}
 
 p {
     font-size: 20px;
 }
 p a {
     float: none;
+}
+
+.title {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 75px;
+    text-decoration: solid;
 }
 
 .strike-through {

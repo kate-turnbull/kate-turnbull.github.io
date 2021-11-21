@@ -26,6 +26,14 @@ a {
 
 .questions {
     color: gray;
+    font-size: large;
+}
+
+.title {
+   text-align: center;
+   margin-top: 150px;
+   font-size: 75px;
+   text-decoration: solid;
 }
 
 #class-example {
