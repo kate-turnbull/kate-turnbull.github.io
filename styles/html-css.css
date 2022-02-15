@@ -70,3 +70,28 @@ p {
    height: 50px;
    color: white;
 }
+
+/* mobile */
+@media (min-width: 320px) {
+   p {
+       font-size: 12px;
+       line-height: 1.5; 
+   }
+       
+} 
+
+/* tablet */
+@media (min-width: 768px) {
+   p {
+   font-size: 20px;
+   line-height: 1.5;
+   }
+}
+
+/* desktop/laptop */
+@media (min-width: 1200px) {
+   p {
+       line-height: 3;
+    }
+}
+
